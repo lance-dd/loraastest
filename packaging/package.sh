@@ -54,9 +54,8 @@ COMMON_FPM_ARGS="\
 	--after-remove $POSTUNINSTALL_SCRIPT \
 	--architecture $ARCH \
 	--name $NAME \
-	--version $VERSION \
 	--depends openssl"
-
+# --version $VERSION \
 if [ ! -f $DIST_FILE_PATH ]; then
 	echo "Dist file $DIST_FILE_PATH does not exist"
 	exit 1
