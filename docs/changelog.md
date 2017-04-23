@@ -30,7 +30,7 @@
 * Nodes can now be grouped per application (e.g. called `temperature-sensor`).
   For backwards compatibility, the `AppEUI` is used as application name when
   upgrading.
-* Nodes can now be given a name (e.g. `garden-sensor`), which must be unique 
+* Nodes can now be given a name (e.g. `garden-sensor`), which must be unique
   within an application. For backwards compatibility the `DevEUI` is used as
   name for the nodes when upgrading.
 * Application ID, and the name of the application and node are included in the
@@ -61,10 +61,10 @@ and [@VirTERM](https://twitter.com/VirTERM) for their input on the API changes.
 
 **Features:**
 
-* Adaptive data-rate support. See [loraserver/features](https://docs.loraserver.io/loraserver/features/)
+* Adaptive data-rate support. See [loraserver/features]()
   for more information about ADR. Note:
 
-	* [LoRa Server](https://docs.loraserver.io/loraserver/) 0.13.0 or higher
+	* [LoRa Server]() 0.13.0 or higher
 	  is required
 	* ADR is currently only implemented for the EU 863-870 ISM band
 	* This is an experimental feature

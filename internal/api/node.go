@@ -286,7 +286,7 @@ func (a *NodeAPI) Activate(ctx context.Context, req *pb.ActivateNodeRequest) (*p
 	}
 
 	// try to remove an existing node-session.
-	// TODO: refactor once https://github.com/brocaar/loraserver/pull/124 is in place?
+	// TODO: refactor once /pull/124 is in place?
 	// so that we can call something like SaveNodeSession which will either
 	// create or update an existing node-session
 	_, _ = a.ctx.NetworkServer.DeleteNodeSession(context.Background(), &ns.DeleteNodeSessionRequest{

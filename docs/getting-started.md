@@ -2,19 +2,19 @@
 
 A complete LoRa Server setup, requires the setup of the following components:
 
-* [LoRa Gateway Bridge](https://docs.loraserver.io/lora-gateway-bridge/)
-* [LoRa Server](https://docs.loraserver.io/loraserver/)
-* [LoRa App Server](https://docs.loraserver.io/lora-app-server/)
+* [LoRa Gateway Bridge](lora-gateway-bridge/)
+* [LoRa Server]()
+* [LoRa App Server](h)
 
 This getting started document describes the steps needed to setup LoRa App
 Server using the provided Debian package repository. Please note that LoRa
 App Server is not limited to Debian / Ubuntu only! General purpose binaries
 can be downloaded from the 
-[releases](https://github.com/brocaar/lora-app-server/releases) page.
+[releases](releases) page.
 
 !!! info
 	An alternative way to setup all the components is by using the
-	[loraserver-setup](https://github.com/brocaar/loraserver-setup) Ansible
+	[loraserver-setup](-setup) Ansible
 	scripts. It automates the steps below and can also be used in combination
 	with [Vagrant](https://www.vagrantup.com/).
 
@@ -40,7 +40,7 @@ commands:
 ```bash
 source /etc/lsb-release
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 1CE2AFD36DBCCA00
-sudo echo "deb https://repos.loraserver.io/${DISTRIB_ID,,} ${DISTRIB_CODENAME} testing" | sudo tee /etc/apt/sources.list.d/loraserver.list
+sudo echo "deb https://repos./${DISTRIB_ID,,} ${DISTRIB_CODENAME} testing" | sudo tee /etc/apt/sources.list.d/loraserver.list
 sudo apt-get update
 ```
 
@@ -174,7 +174,7 @@ Example output:
 
 ```
 Sep 25 12:44:59 ubuntu-xenial systemd[1]: Started lora-app-server.
-level=info msg="starting LoRa App Server" docs="https://docs.loraserver.io/" version=0c5ba3f
+level=info msg="starting LoRa App Server" docs="" version=0c5ba3f
 level=info msg="connecting to postgresql"
 level=info msg="setup redis connection pool"
 level=info msg="handler/mqtt: connecting to mqtt broker" server="tcp://localhost:1883"
@@ -191,7 +191,7 @@ level=info msg="registering rest api handler and documentation endpoint" path="/
 ```
 
 In case you see the following log messages, it means that LoRa App Server
-can't connect to [LoRa Server](https://docs.loraserver.io/loraserver/).
+can't connect to [LoRa Server]().
 
 ```
 INFO[0001] grpc: addrConn.resetTransport failed to create client transport: connection error: desc = "transport: dial tcp 127.0.0.1:8000: getsockopt: connection refused"; Reconnecting to {"127.0.0.1:8000" <nil>}

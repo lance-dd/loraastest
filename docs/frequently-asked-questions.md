@@ -4,7 +4,7 @@
 
 When you see the error `dial tcp 127.0.0.1:8000: getsockopt: connection refused`
 in your logs, it means that LoRa App Server can't connect to
-[LoRa Server](https://docs.loraserver.io/loraserver/).
+[LoRa Server]().
 
 ## transport: dial tcp 127.0.0.1:8080: getsockopt: connection refused
 

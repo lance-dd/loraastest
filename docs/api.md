@@ -8,7 +8,7 @@ RESTful JSON interface, so that you can use the API for web-applications
 
 !!! info "Protocol-buffer files"
     LoRa App Server provides a gRPC client for Go. For other programming languages
-    you can use the .proto files inside the [api](https://github.com/brocaar/lora-app-server/tree/master/api)
+    you can use the .proto files inside the [api]()
     folder for generating clients. See the [gRPC](http://www.grpc.io/) documentation
     for documentation.
 
@@ -26,7 +26,7 @@ The REST API documentation and interactive console can be found at `/api`.
 Both the gRPC and RESTful JSON interface provide an option for authentication
 and authorization using JSON web tokens / [JWT](https://jwt.io). To enable
 this option, make sure to start LoRa Server with the `--jwt-secret` argument
-(or `JWT_SECRET` environment variable). 
+(or `JWT_SECRET` environment variable).
 
 An example claim illustrating the options that can be included in the token:
 
@@ -83,5 +83,5 @@ first follow the [getting started](https://letsencrypt.org/getting-started/)
 instructions. When the `letsencrypt` cli tool has been installed, execute:
 
 ```bash
-letsencrypt certonly --standalone -d DOMAINNAME.HERE 
+letsencrypt certonly --standalone -d DOMAINNAME.HERE
 ```

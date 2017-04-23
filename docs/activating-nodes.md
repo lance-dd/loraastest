@@ -48,7 +48,7 @@ mac save command should be called again.*
 
 A `mac save` must be done any time the application key (`mac set appkey`),
 application EUI (`mac set appeui`), or the device EUI (`mac set deveui`) are
-changed in order to persist these changes. 
+changed in order to persist these changes.
 
 Anyone who is this far along probably has figured out that commands to the
 RN2483 / RN2903 must be terminated with `CR + LF`.
@@ -105,6 +105,6 @@ AT+DI?
 ```
 
 !!! info "Your node not here?"
-    Please help making this guide complete! Fork the [github.com/brocaar/loraserver](https://github.com/brocaar/loraserver)
+    Please help making this guide complete! Fork the [github.com/brocaar/loraserver]()
     repository, update this page with the actions needed to setup your node
     and create a pull-request :-)

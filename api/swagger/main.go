@@ -42,7 +42,7 @@ func main() {
 	swagger.Info.Version = apiVersion
 	swagger.Info.Description = `
 For more information about the usage of the LoRa App Server (REST) API, see
-[https://docs.loraserver.io/lora-app-server/api/](https://docs.loraserver.io/lora-app-server/api/).
+[h](h).
 `
 
 	fileInfos, err := ioutil.ReadDir(os.Args[1])

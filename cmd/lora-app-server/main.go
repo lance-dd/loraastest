@@ -54,7 +54,7 @@ func run(c *cli.Context) error {
 
 	log.WithFields(log.Fields{
 		"version": version,
-		"docs":    "https://docs.loraserver.io/",
+		"docs":    "",
 	}).Info("starting LoRa App Server")
 
 	// get context

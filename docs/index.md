@@ -1,7 +1,7 @@
 # LoRa App Server documentation
 
 LoRa App Server is an open-source LoRaWAN application-server, compatible
-with [LoRa Server](https://github.com/brocaar/loraserver). It is responsible
+with [LoRa Server](). It is responsible
 for the node "inventory" part of a LoRaWAN infrastructure, handling of received
 application payloads and the downlink application payload queue. It comes
 with a web-interface and API (RESTful JSON and gRPC) and supports authorization
@@ -17,14 +17,14 @@ and payloads can be enqueued by using MQTT or the API.
 
 ## Downloads
 
-* Pre-compiled binaries are available at the [releases](https://github.com/brocaar/lora-app-server/releases) page:
+* Pre-compiled binaries are available at the [releases](releases) page:
 
 	* Linux (including ARM / Raspberry Pi)
 	* OS X
 	* Windows
 
-* Debian and Ubuntu packages are available at [https://repos.loraserver.io](https://repos.loraserver.io/).
-* Source-code can be found at [https://github.com/brocaar/lora-app-server](https://github.com/brocaar/lora-app-server).
+* Debian and Ubuntu packages are available at [https://repos.](https://repos./).
+* Source-code can be found at [lora-app-server](lora-app-server).
 
 ## Building from source
 
@@ -73,7 +73,7 @@ and that you clone this repository to
 There are a couple of ways to get involved:
 
 * Join the discussions and share your feedback at [https://gitter.io/loraserver/lora-app-server](https://gitter.io/loraserver/lora-app-server)
-* Report bugs or make feature-requests by opening an issue at [https://github.com/brocaar/lora-app-server/issues](https://github.com/brocaar/lora-app-server/issues)
+* Report bugs or make feature-requests by opening an issue at [issues](issues)
 * Fix issues or improve documentation by creating pull-requests
 
 When you would like to add new features, please discuss the feature first
@@ -83,4 +83,4 @@ it, what the usecase is etc...
 ## License
 
 LoRa App Server is distributed under the MIT license. See also
-[LICENSE](https://github.com/brocaar/lora-app-server/blob/master/LICENSE).
+[LICENSE](blob/master/LICENSE).

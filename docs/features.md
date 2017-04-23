@@ -26,7 +26,7 @@ Items can be scheduled using the [API](api.md) or
 [MQTT topics](mqtt-topics.md). Both confirmed as unconfirmed payloads are
 supported. In case of a confirmed payload, an ACK will be sent over MQTT
 (see [MQTT topics](mqtt-topics.md)). Payloads will be encrypted by LoRa App
-Server before they are sent to [LoRa Server](https://docs.loraserver.io/loraserver/).
+Server before they are sent to [LoRa Server]().
 
 ### Class-A
 

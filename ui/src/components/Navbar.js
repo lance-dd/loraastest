@@ -12,8 +12,8 @@ class Navbar extends Component {
           <div id="navbar" className="navbar-collapse collapse">
             <ul className="nav navbar-nav navbar-right">
               <li><Link to="/jwt">Set JWT token</Link></li>
-              <li><a href="https://github.com/brocaar/loraserver">GitHub</a></li>
-              <li><a href="https://docs.loraserver.io/">Documentation</a></li>
+              <li><a href="">GitHub</a></li>
+              <li><a href="">Documentation</a></li>
             </ul>
           </div>
         </div>

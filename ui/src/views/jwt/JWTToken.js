@@ -43,7 +43,7 @@ class JWTToken extends Component {
                 <label className="control-label" htmlFor="name">JWT Token</label>
                 <textarea className="form-control" rows="5" id="token" name="token" onChange={this.onChange}>{this.state.token}</textarea>
                 <p className="help-block">
-                  LoRa App Server has support for JWT based token authorization as described in the <a href="https://docs.loraserver.io/lora-app-server/api/">api documentation</a>.
+                  LoRa App Server has support for JWT based token authorization as described in the <a href="h">api documentation</a>.
                   When you got redirected to this view, it means you need to enter your token to gain access to your data.
                 </p>
               </div>
